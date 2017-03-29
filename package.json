@@ -1,0 +1,34 @@
+{
+  "name": "translator",
+  "version": "1.0.0",
+  "description": "关于nodejs 的命令行翻译小工具 ",
+  "main": "index.js",
+  "bin": {
+    "translator": "./bin/translator.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CooLNuanfeng/translator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "tool",
+    "translator"
+  ],
+  "author": "nuanfeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CooLNuanfeng/translator/issues"
+  },
+  "homepage": "https://github.com/CooLNuanfeng/translator#readme",
+  "dependencies": {
+    "cli-table2": "^0.2.0",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0",
+    "superagent": "^3.5.2"
+  }
+}
